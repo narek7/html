@@ -5,6 +5,9 @@
 <h1>Narek Mardoyan</h1>
 <img src="images/my.jpg">
 <h1>Click the button to go to my website.</h1>
+
+<h1>Armenia mobile phone number:091234047.</h1>
+
  <nav>
  <button><h1> <a href="my.html">Narek Mardoyan Site.<h1></button></a> 
   </nav>
@@ -14,7 +17,6 @@ body{
   
 }
 
-<h1>Armenia mobile phone number:091234047.</h1>
 
 </style>
 	  </body>
