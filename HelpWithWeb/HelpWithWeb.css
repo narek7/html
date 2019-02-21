@@ -1,0 +1,136 @@
+body{
+background-image:url("images/image3.jpg");
+background-color:#e6ffff;
+background-repeat:repeat-y;
+text-align: center;
+}
+nav {
+float: left;
+	z-index: auto;
+	position: fixed;
+	left: 0px;
+	top: 70px;
+    background-color: rgba(255, 255, 204,0.7) ;
+	width: 150px;
+	height:450px;	
+    border-top-right-radius: 100px;
+	border-bottom-right-radius: 60px;
+    padding:10px;	
+   }
+   
+
+
+nav {
+
+ color:#008080;
+
+}
+form{
+ color:#00ffff;
+}
+img{
+	height: 300px;
+	width: 300px;
+	float: center;
+	margin: 10%;
+	border: 1px solid #333;	
+	border-radius: 20px;
+}
+header h1{
+ color:blue;
+}
+
+h3{
+ color:blue;
+}
+
+h4{
+font-family: Comic Sans Ms;
+ color:#FFFF00;
+ margin-left: 200px;
+}
+iframe{
+	border: 10px solid #00ff80;
+}
+#button{
+	width: 220px;
+	height: 30px;
+	border-radius: 11px;
+	background-color:	#7FFFD4;
+	
+}
+#name{
+	width: 300px;
+	height: 30px;
+	border-radius: 11px;
+	background-color:	#00FFFF ;
+	
+}
+#question{
+	width: 300px;
+	height: 30px;
+	border-radius: 11px;
+	background-color:	#00FFFF ;
+	
+}
+
+#password{
+	width: 300px;
+	height: 30px;
+	border-radius: 11px;
+	background-color:	#00FFFF ;
+	
+}
+#News{
+   background-color: rgba(255, 255, 255,0.7);
+    height: auto;
+	Width: auto;
+   text-align:center;
+}
+#News h1{
+	color:#00ff00;
+}
+  
+h5{
+  color:Gray;
+  margin-left: 200px ;
+  float: auto;
+}
+#Smart{
+   background-color: rgba(53,53,53,0.7);
+    height: auto;
+	Width: auto  ;
+   text-align:center;
+}
+#Smart img{
+	height: 250px;
+	width: 450px;
+	float: left;
+	margin: 6%;
+	border: 1px solid #333;	
+	border-radius: 10px;
+}
+#Smart h2{
+  color: black;
+  float:center-left;
+
+}
+#h1{
+	color:white;
+	background-color:blue;
+	border:10px solid #ffffff;
+	font-family: Marker Felt fantasy;
+   text-align:center;
+}
+#questionDiv h6{
+	 border: 10px solid #00ffff;
+    padding: 10px;
+	 background-color: white;
+    height: auto;
+	Width: auto  ;
+   text-align:center;
+	font-family:Trattatello, fantasy;
+ color:#008080;
+ margin-left: 300px;	
+ margin-right: 300px;
+}
