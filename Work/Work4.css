@@ -1,0 +1,56 @@
+body{
+    background-image:url(images/image5.jpg);
+    background-repeat: repeat-y;
+}
+#margin{
+	margin-left:200px;
+}
+header{
+    background-image: url("images/image6.jpg");
+	height: 200px;
+	width: 1000px;
+   
+}
+.menu , .submenu{
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menu_item{
+	display: inline-block;
+}
+.menu_item a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+}
+.menu_item a:hover{
+	background-color: green;
+	display: absolute;
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+.menu_item:hover .submenu{
+	display: block;
+}
+.lin{
+  border: 2px solid black;
+	width: 997px;
+}
+#none{
+	display: inline;
+}
+.home{
+ border: 2px solid;
+ border-color: #b3b3b3;
+ border-radius:5px;
+ height: 200px ;
+ width: 990px ;
+ padding: 4px;
+	 float:center;
+}
