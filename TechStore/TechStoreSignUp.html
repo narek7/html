@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sign Up</title>
+        <title>Sign In</title>
         <link rel="stylesheet" type="text/css" href="TechStoreSignUp.css">
         <link rel="icon" href="images/icon.png" type="images/x-icon">
+        <meta charset="utf-8">
     </head>
     <body>
             <div id="img4">
@@ -30,10 +31,29 @@
         <br>
         <label for="password">Password:</label>
         <br>
-		<input type="password" id="password">
+        <input type="password" id="password">
+        <br>
+    </div>
+        <div class="container">
+				<label for="psw">Test's Your Password:</label>
+				<br>
+			 <input type="password" autocomplete="off" id="psw" name="psw">
+			 </div>
+			 <div id="massage">
+			 <p id="lengthCounter"><b>Number of Characters:</b></p>
+				  <p id="PSWlength" class="invalid"><b>Minimum 8 Characters in Length</b></p>
+				   <p id="upper" class="invalid"><b>Uppercase Letters</b></p>
+					<p id="lower" class="invalid"><b>Lowercase Letters</b></p>
+					 <p id="number" class="invalid"><b>Numbers</b></p>
+					  <p id="symbol" class="invalid"><b>Symbols</b></p>
+					  <script src="TechStore2.js"></script>
+				  </div> 
 		<br>
-		<br>
-		<input type="button" id="button" onclick="showAnswer()" value="Login Up" >
+        <br>
+        <div id="signup">
+            <a href="TechStore5.html">
+        <input type="button" id="button" onclick="showAnswer()" value="Login In" >
+    </a>
         <br>
     </div>
     </body>
