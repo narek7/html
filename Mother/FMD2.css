@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+h1 {
+    font-family: Candara;
+    font-size: 5rem;
+    margin: 0; 
+    color: black;
+  }
+ h3{
+    font-family: Candara;
+    font-size: 5rem;
+    margin: 0; 
+    color: black;
+ }
+ #ka{
+     border: 2px solid white;
+     height: 500px;
+     width: 500px;
+     float: left;
+     color: gray;
+ }
+ #ka{
+     float: left;
+ }
+  html,
+  body {
+    margin: 0;
+    background-color: white;
+  }
+  body {
+
+    background-image: url(images/84.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+  }
