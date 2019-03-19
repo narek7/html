@@ -4,77 +4,16 @@ body, html {
     background-repeat: no-repeat; 
     font-family: 'Just Another Hand', cursive;
     overflow-X: hidden;
+    height: 100%;
+    margin: 0;
   }
-  @media screen and (max-width: 1280px) {
-    div.example {width: 1100px;}
-    }
-    @media screen and (max-width: 1024px) {
-    div.example {width: 980px;}
-    }
-  #img4{
-    background-color: aqua;
-    height: 100px ;
-    width: auto;
-   }
-   .menu_item1{
-    float:right;
-  }
-  #canvas{
-    display: inline-block;
-    margin-right: 50px;
-    margin-left: 35px;    
-  }
-  canvas{
-    border: 2px solid white;
-    position: absolute;
-  }
-.menu , .submenu{
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-}
-.menu_item{
-	display: inline-block;
-}
-.menu_item a{
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px;
-	display: inline-block;
-}
-.menu_item a:hover{
-	background-color: yellow;
-	display: absolute;
-}
-.submenu{
-	display: none;
-	position: absolute;
-}
-.menu_item:hover .submenu{
-	display: block;
-}
-.lin{
-  float:center-left;
 
-}
-#none{
-	display: inline;
-}
-.menu_item1{
-    float:right;
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
   }
-  .menu_item1 a{
-      color: white;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding: 10px;
-      display: inline-block;
-  }
-  .menu_item1 a:hover{
-      background-color: yellow;
-      display: absolute;
-  }
-  .menu_item1:hover {
-      display: block;
+  canvas {
+    border: 1px solid white;
   }
