@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+body, html {
+  background-image: url(images/backgroundimg.jpg);
+  font-family: 'Just Another Hand', cursive;
+  overflow-X: hidden;
+}
+#img4{
+    background-color: aqua;
+    height: 100px ;
+    width: auto;
+   }
+   .menu , .submenu{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.menu_item{
+	display: inline-block;
+}
+.menu_item a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	display: inline-block;
+}
+.menu_item a:hover{
+	background-color: yellow;
+	display: absolute;
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+.menu_item:hover .submenu{
+	display: block;
+}
+.lin{
+  float:center-left;
+
+}
+#none{
+	display: inline;
+}
+.tel_1 h1{
+    height: 50px;
+    width: 250px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.tel_1 h1{
+    background-color: white;
+}
+.tel_2 img{
+    background-color: white;
+    height: 210px;
+    width: 290px;
+}
+.tel_2 h1{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    color: black;
+}
+.tel_1 img{
+    background-color: white;
+}
+.menu_item1{
+    float:right;
+  }
+  .menu_item1 a{
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px;
+      display: inline-block;
+  }
+  .menu_item1 a:hover{
+      background-color: yellow;
+      display: absolute;
+  }
+  .menu_item1:hover {
+      display: block;
+  }
+.tel_3 img{
+    background-color: white;
+    height: 210px;
+    width: 290px;
+}
+.tel_3 h1{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    color: black;
+}
+.tel_4 img{
+    background-color: white;
+    height: 210px;
+    width: 290px;
+}
+.tel_4 h1{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    color: black;
+}
