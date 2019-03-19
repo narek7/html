@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+body, html {
+    background-image: url(images/backgroundimg.jpg);
+    background-repeat: no-repeat; 
+    font-family: 'Just Another Hand', cursive;
+    overflow-X: hidden;
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+  }
+  canvas {
+    border: 1px solid white;
+  }
