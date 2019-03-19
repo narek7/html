@@ -49,7 +49,7 @@ header{
  border: 2px solid;
  border-color: #b3b3b3;
  border-radius:5px;
- height: 1350px ;
+ height: 400px ;
  width: 990px ;
  padding: 4px;
 	 float:center;
@@ -60,12 +60,11 @@ header{
 	float: left;
 		margin: 6%;
 		margin-top: 5px;
+	border: 1px solid #333;	
+	border-radius: 10px;
 }
 .home h6{
   color: black;
   float:center-left;
 
-}
-header{
-	text-align: center;
 }

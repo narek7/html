@@ -1,6 +1,10 @@
 var images = [
-    'images/image6.jpg', 
-    'images/image5.jpg'
+    'images/st.jpg',
+    'images/js.png',
+    'images/my.jpg',
+    'images/htcs.png',
+    'images/tim.jpg',
+    'images/Hk.jpg'
 ];
 var num = 0;
 function next() {

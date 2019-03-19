@@ -49,8 +49,20 @@ header{
  border: 2px solid;
  border-color: #b3b3b3;
  border-radius:5px;
- height: 200px ;
+ height: 400px ;
  width: 990px ;
  padding: 4px;
 	 float:center;
+}
+.home img{
+	height: 250px;
+	width: 250px;
+	float: left;
+		margin: 6%;
+		margin-top: 5px;
+}
+.home h6{
+  color: black;
+  float:center-left;
+
 }

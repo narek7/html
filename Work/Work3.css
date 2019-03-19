@@ -49,7 +49,7 @@ header{
  border: 2px solid;
  border-color: #b3b3b3;
  border-radius:5px;
- height: 350px ;
+ height: 450px ;
  width: 990px ;
  padding: 4px;
 	 float:center;
@@ -58,11 +58,11 @@ button {
     margin-top:50px;
     float:center;
     height:50px;
-}
+}                                   
 img {
     float:center;
-    height:200px;
-    width: 650px;
+    height:250px;
+    width: 250px;
     margin-right:100px;
     margin-left:100px;
 }
