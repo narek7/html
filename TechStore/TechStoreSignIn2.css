@@ -88,4 +88,7 @@ body, html {
 	font-family:Trattatello, fantasy;
  color:rgba(0, 128, 79);
 }
+a{
+	text-decoration: none;
+}
  
