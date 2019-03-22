@@ -236,6 +236,10 @@ body, html {
   padding: 4px;
     float:center;
  }
+ .about img{
+  border:2px solid black;
+  border-radius: 20px;
+}
  .img{
   background-image:url(images/img1.jpg) ;
   background-repeat: no-repeat;
