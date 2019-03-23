@@ -109,3 +109,8 @@ a{
 #block{
      display: inline-block;
 }
+#block2{
+    position: fixed;
+    height: 500px;
+    width: 434px;
+}

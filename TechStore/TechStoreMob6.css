@@ -256,3 +256,8 @@ body, html {
 background-image: url(images/img2.jpeg);
 background-repeat: no-repeat;
 }
+#block{
+  position: fixed;
+  height: 500px;
+  width: 434px;
+}

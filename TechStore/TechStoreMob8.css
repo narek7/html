@@ -106,3 +106,8 @@ a{
     width: 250px;
     color: black;
 }
+#block{
+    position: fixed;
+    height: 500px;
+    width: 434px;
+  }
