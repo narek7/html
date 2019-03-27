@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
 body, html {
-    background-image: url(images/backgroundimg.jpg);
+  background-image: url(images/backgroundimg.jpg);
+  background-repeat: no-repeat; 
   font-family: 'Just Another Hand', cursive;
   overflow-X: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
   text-align: center;
 }
-#block3{
-    display: inline-block;
-}
+
 a{
     text-decoration: none;
     color:aqua; 
@@ -17,8 +25,5 @@ a{
  border: 2px solid white;
  height: 220px;
  width:  220px;
- margin-left: 550px ;
- margin-left: 550px ;
- position: absolute;
 }
 /*This code was wrote Narek Mardoyan!*/
