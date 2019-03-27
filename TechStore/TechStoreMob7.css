@@ -76,7 +76,7 @@ a{
       display: block;
   }
   #block{
+    overflow: hidden;
     position: fixed;
-    height: 500px;
-    width: 434px;
-  }
+    width: 96%;
+}

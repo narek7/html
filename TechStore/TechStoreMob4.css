@@ -35,13 +35,6 @@ body, html {
 .menu_item:hover .submenu{
 	display: block;
 }
-.lin{
-  float:center-left;
-
-}
-#none{
-	display: inline;
-}
 .phone_1 img{
     height: 250px ;
     width: 250px;
@@ -84,11 +77,11 @@ a{
   .menu_item1:hover {
       display: block;
   }
-.phone_3 h1{
+  .phone_3 h1{
     background-color: white;
-    height: 50px;
-    width: 250px;
-    color: black;
+  height: 50px;
+  width: 250px;
+  color: black;
 }
 .phone_3 img{
     height: 250px ;
@@ -110,7 +103,7 @@ a{
      display: inline-block;
 }
 #block2{
+    overflow: hidden;
     position: fixed;
-    height: 500px;
-    width: 434px;
+    width: 96%;
 }

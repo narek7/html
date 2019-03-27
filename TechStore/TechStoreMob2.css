@@ -76,8 +76,8 @@ a{
       display: block;
   }
   #block{
-      position: fixed;
-      height: 500px;
-      width: 434px;
-  }
-   
+    overflow: hidden;
+    position: fixed;
+    width: 96%;
+}
+ 

@@ -257,7 +257,7 @@ background-image: url(images/img2.jpeg);
 background-repeat: no-repeat;
 }
 #block{
+  overflow: hidden;
   position: fixed;
-  height: 500px;
-  width: 434px;
+  width: 96%;
 }

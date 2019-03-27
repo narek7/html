@@ -47,6 +47,11 @@ body, html {
     width: 250px;
     color: black;
 }
+.tel_1 img{
+    background-color: white;
+    height: 210px;
+    width: 290px;
+}
 a{
     text-decoration: none;
 }
@@ -107,8 +112,8 @@ a{
     color: black;
 }
 #block{
+    overflow: hidden;
     position: fixed;
-    height: 500px;
-    width: 434px;
+    width: 96%;
 }
  
