@@ -8,5 +8,6 @@ var showAnswer=function(){
     answer.innerHTML = password;
     document.getElementById("questionDiv").style.display = "none";
     hiddenDiv.style.display="block";
+    document.write(password);
 };	
 //This code was wrote Narek Mardoyan!\\
