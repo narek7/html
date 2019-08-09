@@ -74,6 +74,15 @@ body {
   display: block;
   transition: 0.3s;
 }
+.gblock{
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
+.gblock a{
+  text-decoration: none;
+  color:black;
+}
 
 .sidebar a:hover {
   color: #f1f1f1;
@@ -107,6 +116,6 @@ body {
   height: 500px;
 }
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {padding-top: 8px;}
+  .sidebar a {font-size: 5px;}
 }
